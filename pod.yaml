@@ -7,7 +7,7 @@ spec:
   - name: kaniko
     image: gcr.io/kaniko-project/executor:latest
     args:
-    - "--context=git://github.com/GSA-COMET-Technical-Challenge/python-microservice-template#development"
+    - "--context=git://github.com/GSA-COMET-Technical-Challenge/python-microservice-template"
     - "--branch=development"
     - "--destination=rivagsacomettechchal/python-microservice-template:latest"
     volumeMounts:
